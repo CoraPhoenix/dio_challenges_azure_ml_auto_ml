@@ -24,6 +24,7 @@ Steps followed to create the model are described in the following links:
 14. After finishing training, creating model by going to "Job" and then "Overview", selecting the best model under "Algorithm name", selecting "Metrics" and then "residuals" and "predicted_true" charts if not already selected; select "Deploy" and select "Web service" to deploy the model
 15. Waiting for the deploy status to change to "Succeeded"
 16. Testing the deployed service by going to "Endpoints" and selecting the "Test" tab
+17. Inputting the JSON shown in base_test.json; the returned result is indicated in result.json
 
 
 
